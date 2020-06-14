@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/yangjin"
+        android:layout_margin="3dp"
+        android:textSize="20sp"
+        android:hint="대학교를 검색하세요." />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/yangjin"
+        android:padding="2dp"
+        android:textColor="#000000"
+        android:divider="#999999"
+        android:dividerHeight="1dp">
+    </ListView>
+    </LinearLayout>

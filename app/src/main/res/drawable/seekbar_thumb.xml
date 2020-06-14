@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Press the State  -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@drawable/seekbar_circle" />
+    <!--  Ordinary focus state   -->
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/seekbar_circle" />
+    <!--  The State has the focus  -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/seekbar_circle" />
+    <!--  Has focus   -->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/seekbar_circle" />
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/seekbar_circle" />
+
+</selector>
